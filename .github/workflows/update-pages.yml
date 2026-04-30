@@ -2,6 +2,13 @@ name: Update server list
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "hvh-a2s-bridge/servers.txt"
+      - "hvh-a2s-bridge/export-static.js"
+      - ".github/workflows/update-pages.yml"
   schedule:
     - cron: "*/5 * * * *"
 
