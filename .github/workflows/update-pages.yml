@@ -10,7 +10,7 @@ on:
       - "hvh-a2s-bridge/export-static.js"
       - ".github/workflows/update-pages.yml"
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "2-59/5 * * * *"
 
 permissions:
   contents: read
