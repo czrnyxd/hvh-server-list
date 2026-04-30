@@ -1,3 +1,0 @@
-# One server per line.
-# Lines starting with # are ignored.
-51.77.47.242:27015
